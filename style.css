@@ -1,0 +1,76 @@
+body {
+  background-color: hsl(185, 75%, 39%);
+  background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+  background-position: -12.5rem -31.25rem, 46.875rem 21.875rem;
+  background-repeat: no-repeat;
+  font-size: 1.125rem;
+}
+
+main {
+  width: 25%;
+  height: 25rem;
+  margin: 10% auto;
+  text-align: center;
+  background-color: white;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: hsl(0, 0%, 59%);
+  border-radius: 5%;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid hsl(0, 0%, 59%);
+}
+
+h3 {
+  color: hsl(229, 23%, 23%);
+  margin-bottom: 0.3em;
+}
+
+span {
+  color: hsl(0, 0%, 59%);
+  font-weight: 400;
+  padding: 0.3em;
+}
+
+.profile-main {
+  height: 70%;
+  background-image: url(images/bg-pattern-card.svg);
+  background-size: 100% 50%;
+  background-repeat: no-repeat;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+
+.profile-content {
+  padding-top: 5em;
+}
+
+.profile-img {
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.profile-details {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.5em;
+}
+
+@media screen and (max-width: 900px) {
+  main {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  main {
+    width: 90%;
+  }
+}
